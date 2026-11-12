@@ -1,0 +1,11 @@
+,n,n,spearman_rho,spearman_rho
+outcome,w_av_per_eligible_season,y2_snap_share,w_av_per_eligible_season,y2_snap_share
+pos_group,,,,
+DB,350.0,498.0,-0.059,-0.334
+DL,309.0,422.0,-0.094,-0.233
+LB,153.0,244.0,-0.322,-0.46
+OL,282.0,405.0,-0.345,-0.335
+QB,65.0,108.0,-0.146,-0.038
+RB,142.0,240.0,-0.027,-0.33
+TE,92.0,136.0,-0.201,-0.444
+WR,227.0,376.0,-0.204,-0.364
