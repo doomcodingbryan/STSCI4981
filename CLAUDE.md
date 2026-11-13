@@ -113,6 +113,12 @@ Done: data build, quality report, Update 1, EDA and first models.
 
 **Update 1: the submitted version is `reports/update1_submitted_2026-11-06.md`, not the longer `update1_revised_2026-11-06.md` draft.** The submitted text is much thinner. It never defines y2_snap_share or w_av_per_eligible_season, never mentions the Kaggle and Ohio State sources that were dropped, and reports no correlations. Later updates must introduce the outcome measures from scratch, because Prof. Wells has not seen them.
 
+**Update 2 scope (decided 2026-11-13).** Report only what the submitted Update 1 promised: cleaning
+finished, analysis method decided, first model results, and the 2021 pro day sensitivity check (which that
+update explicitly committed to). The notebook also contains a speed-measure comparison (section 3) and a
+check on drafted players who skipped the 40 (section 4). Both stay in the notebook but are **held out of
+Update 2's text** and saved as Update 3 material. Section 5b, the 2016 sensitivity check, is Matthew's task.
+
 Next, roughly in order:
 1. Create `notebooks/01_eda.ipynb`: distributions of 40 time by position, outcome distributions, and a scatter of 40 time against y2 snap share by position.
 2. `notebooks/02_models.ipynb`:
