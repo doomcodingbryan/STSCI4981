@@ -17,6 +17,19 @@ STSCI 4981/4982 capstone, Bryan Chae (byc27) and Matthew Manno (mjm752). Data pu
 | `reports/` | Text of the weekly updates and findings drafts. |
 | `CLAUDE.md` | Project context for Claude Code sessions. |
 
+## Run the notebooks in your browser (no install)
+
+Both notebooks open and run in Google Colab. Click a badge, then Runtime > Run all.
+The first cell downloads this repo so the data is there; nothing needs to be installed.
+
+| Notebook | Open |
+|---|---|
+| `notebooks/01_eda.ipynb` (distributions and scatters) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/doomcodingbryan/STSCI4981/blob/main/notebooks/01_eda.ipynb) |
+| `notebooks/02_models.ipynb` (speed vs draft position) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/doomcodingbryan/STSCI4981/blob/main/notebooks/02_models.ipynb) |
+
+A Colab session is your own scratch copy: running cells changes nothing in this repo.
+To send changes back, use File > Save a copy in GitHub, which needs write access to the repo.
+
 Rebuild everything from scratch:
 
 ```bash
