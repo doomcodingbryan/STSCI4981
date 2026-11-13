@@ -43,7 +43,7 @@ raw/        nflverse snapshot pulled 2026-11-06. Do not edit or re-download.
 data/       combine_draft_outcomes_2016_2024.csv = THE analysis table
             draft_picks_without_combine_2016_2024.csv, quality/ = coverage tables
 scripts/    build_dataset.py (raw -> data), data_quality_report.py (data -> data/quality)
-notebooks/  01_eda, 02_models, 03_figures_for_paper (to be created)
+notebooks/  nfl_combine_speed.ipynb = THE analysis notebook (EDA + models in one)
 figures/    PNGs saved by notebooks (300 dpi) for updates and the paper
 reports/    text of updates and findings drafts
 ```
@@ -115,13 +115,13 @@ Done: data build, quality report, Update 1, EDA and first models.
 
 **Update 2 scope (decided 2026-11-13).** Report only what the submitted Update 1 promised: cleaning
 finished, analysis method decided, first model results, and the 2021 pro day sensitivity check (which that
-update explicitly committed to). The notebook also contains a speed-measure comparison (section 3) and a
-check on drafted players who skipped the 40 (section 4). Both stay in the notebook but are **held out of
-Update 2's text** and saved as Update 3 material. Section 5b, the 2016 sensitivity check, is Matthew's task.
+update explicitly committed to). The notebook also contains a speed-measure comparison (section 6) and a
+check on drafted players who skipped the 40 (section 7). Both stay in the notebook but are **held out of
+Update 2's text** and saved as Update 3 material. Section 8b, the 2016 sensitivity check, is Matthew's task.
 
 Next, roughly in order:
-1. Create `notebooks/01_eda.ipynb`: distributions of 40 time by position, outcome distributions, and a scatter of 40 time against y2 snap share by position.
-2. `notebooks/02_models.ipynb`:
+1. (done, part 1 of the notebook) distributions of 40 time by position, outcome distributions, and a scatter of 40 time against y2 snap share by position.
+2. (done, part 2 of the notebook)
    - Regress y2_snap_share on forty within position group, then add draft pick (log of overall pick, or round) to test whether speed predicts value **beyond draft position**.
    - Compare forty, forty_z_pos and speed_score.
    - Consider a drafted-only AV model as the secondary analysis.

@@ -12,20 +12,19 @@ STSCI 4981/4982 capstone, Bryan Chae (byc27) and Matthew Manno (mjm752). Data pu
 | `raw/` | Unmodified nflverse downloads (combine, draft picks, snap counts). |
 | `scripts/build_dataset.py` | Builds the analysis table from `raw/` (downloads if missing). |
 | `scripts/data_quality_report.py` | Rebuilds every table in `data/quality/`. |
-| `notebooks/` | Exploration, models and paper figures. Notebooks read the clean CSV only. |
+| `notebooks/nfl_combine_speed.ipynb` | The whole analysis: description, models, sensitivity checks. Reads the clean CSV only. |
 | `figures/` | Figures saved by notebooks for the updates and paper. |
 | `reports/` | Text of the weekly updates and findings drafts. |
 | `CLAUDE.md` | Project context for Claude Code sessions. |
 
 ## Run the notebooks in your browser (no install)
 
-Both notebooks open and run in Google Colab. Click a badge, then Runtime > Run all.
+The analysis notebook opens and runs in Google Colab. Click a badge, then Runtime > Run all.
 The first cell downloads this repo so the data is there; nothing needs to be installed.
 
 | Notebook | Open |
 |---|---|
-| `notebooks/01_eda.ipynb` (distributions and scatters) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/doomcodingbryan/STSCI4981/blob/main/notebooks/01_eda.ipynb) |
-| `notebooks/02_models.ipynb` (speed vs draft position) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/doomcodingbryan/STSCI4981/blob/main/notebooks/02_models.ipynb) |
+| `notebooks/nfl_combine_speed.ipynb` (the whole analysis) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/doomcodingbryan/STSCI4981/blob/main/notebooks/nfl_combine_speed.ipynb) |
 
 A Colab session is your own scratch copy: running cells changes nothing in this repo.
 To send changes back, use File > Save a copy in GitHub, which needs write access to the repo.
